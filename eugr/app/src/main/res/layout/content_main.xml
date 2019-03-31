@@ -26,6 +26,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="47dp"
         android:layout_marginRight="47dp"
+        android:backgroundTint="@color/acceso_identidicado"
         android:text="@string/acceso_identificado"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,7 +48,6 @@
 
     <Button
         android:id="@+id/button3"
-        android:autoLink="web"
         android:layout_width="159dp"
         android:layout_height="45dp"
         android:layout_marginStart="205dp"
@@ -55,6 +55,7 @@
         android:layout_marginTop="61dp"
         android:layout_marginEnd="47dp"
         android:layout_marginRight="47dp"
+        android:autoLink="web"
         android:text="@string/swad"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -98,6 +99,7 @@
         android:layout_marginEnd="47dp"
         android:layout_marginRight="47dp"
         android:text="@string/correo"
+        android:textColorHint="@color/colorPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -125,5 +127,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/pts1" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:elevation="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button1"
+        app:layout_constraintStart_toStartOf="@+id/button1"
+        app:layout_constraintTop_toTopOf="@+id/button1"
+        app:layout_constraintVertical_bias="0.523"
+        app:srcCompat="@drawable/ic_person_black_24dp" />
 
 </android.support.constraint.ConstraintLayout>
