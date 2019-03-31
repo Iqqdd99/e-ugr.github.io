@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">#E-ugr</string>
+    <string name="action_settings">Opciones</string>
+    <string name="info">Acerca de E-ugr</string>
+    <string name="prado">Prado</string>>
+    <string name="acceso_identificado">Acceso Identificado</string>
+    <string name="correo">Correo</string>
+    <string name="swad">SWAD</string>
+    <string name="ciges">CIGES</string>
+    <string name="menu">Menú</string>
+    <string name="mapas">Maps</string>
+    <string name="descripcion">Esta es la nueva aplicación de E-ugr!</string>
+</resources>
+
